@@ -9,6 +9,7 @@
 #include <Curve25519.h>
 #include <SHA256.h>
 #if !(MESHTASTIC_EXCLUDE_PKI_KEYGEN)
+#include <BLAKE2s.h>
 
 /**
  * Create a public/private key pair with Curve25519.
